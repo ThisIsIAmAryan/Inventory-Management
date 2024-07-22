@@ -1,10 +1,11 @@
 import React from "react";
 import { PowerBIEmbed } from "powerbi-client-react";
 import { models } from "powerbi-client";
+import './Services.css';
 
 const Services = () => {
   return (
-    <div>
+    <div className="services-main">
       <PowerBIEmbed
         embedConfig={{
           type: "report", // Supported types: report, dashboard, tile, visual, qna, paginated report and create
